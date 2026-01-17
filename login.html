@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Morgan | Web Developer Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="login.css">  
+</head>
+<body>
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Port<span class="spanclass">folio</span></a>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section id="home" class="hero section">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h4>Hello, I'm</h4>
+                <h1>Bright <span class="highlight">Nsirimobi</span></h1>
+                <h3>Full Stack Web Developer</h3>
+                <p>I create beautiful, functional websites and applications with modern technologies. Passionate about clean code and user experience.</p>
+                <div class="hero-btns">
+                    <a href="#portfolio" class="btn">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="Anime image post.png" alt="Alex Morgan" class="profile-img">
+                <div class="floating-icons">
+                    <div class="icon"><i class="fab fa-js"></i></div>
+                    <div class="icon"><i class="fab fa-react"></i></div>
+                    <div class="icon"><i class="fab fa-node-js"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div>
+                    <p>Hello! I'm Bright, a passionate full-stack web developer with 1 years of experience building digital solutions. I specialize in creating responsive, user-friendly websites and applications.</p>
+                    <p>My expertise includes modern frontend frameworks like Django, backend development with  Python, and database design. I enjoy turning complex problems into simple, beautiful designs.</p>
+                    <p>When I'm not coding, you can find me hiking, reading tech blogs, or experimenting with new programming languages and frameworks.</p>
+                </div>
+                <div class="skills">
+                    <h3>My Skills</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>HTML/CSS</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>JavaScript</span>
+                            <span>0%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="0"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Django</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PORTFOLIO SECTION ===== -->
+    <section id="portfolio" class="portfolio section">
+        <div class="container">
+            <h2 class="section-title">My Portfolio</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="app">Web App</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="portfolio-item" data-category="web">
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="E-commerce Website" class="portfolio-img">
+                    <div class="portfolio-info">
+                        <h3>E-commerce Platform</h3>
+                        <p>Full-featured online store with shopping cart, payment integration, and admin dashboard.</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="portfolio-item" data-category="app">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="Task Management App" class="portfolio-img">
+                    <div class="portfolio-info">
+                        <h3>Task Management App</h3>
+                        <p>React-based productivity application with drag & drop functionality and real-time updates.</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="portfolio-item" data-category="mobile">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Fitness App" class="portfolio-img">
+                    <div class="portfolio-info">
+                        <h3>Fitness Tracking App</h3>
+                        <p>Cross-platform mobile application for workout tracking and progress monitoring.</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="portfolio-item" data-category="web">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="Finance Dashboard" class="portfolio-img">
+                    <div class="portfolio-info">
+                        <h3>Finance Dashboard</h3>
+                        <p>Interactive data visualization dashboard for financial analytics and reporting.</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>San Francisco, California</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>Bright@Gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h4>Availability</h4>
+                            <p>Monday - Friday: 9am - 6pm</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" class="form-control" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" class="form-control" placeholder="Your Message" required></textarea>
+                    </div>
+                    <div class="form-status" id="form-status"></div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <h3>Bright Nsirimobi</h3>
+            <p>Full Stack Web Developer</p>
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="copyright">© 2025 Bright Nsirimobi. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // ===== JAVASCRIPT =====
+        
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Mobile menu toggle
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('nav-menu');
+
+        hamburger.addEventListener('click', function() {
+            navMenu.classList.toggle('active');
+            hamburger.innerHTML = navMenu.classList.contains('active') 
+                ? '<i class="fas fa-times"></i>' 
+                : '<i class="fas fa-bars"></i>';
+        });
+
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', function() {
+                navMenu.classList.remove('active');
+                hamburger.innerHTML = '<i class="fas fa-bars"></i>';
+            });
+        });
+
+        // Animate skill bars on scroll
+        function animateSkillBars() {
+            const skillBars = document.querySelectorAll('.skill-progress');
+            
+            skillBars.forEach(bar => {
+                const width = bar.getAttribute('data-width');
+                const barPosition = bar.getBoundingClientRect().top;
+                const screenPosition = window.innerHeight / 1.3;
+                
+                if (barPosition < screenPosition) {
+                    bar.style.width = width + '%';
+                }
+            });
+        }
+
+        // Portfolio filtering
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                
+                // Add active class to clicked button
+                this.classList.add('active');
+                
+                const filterValue = this.getAttribute('data-filter');
+                
+                portfolioItems.forEach(item => {
+                    if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                        item.style.display = 'block';
+                        setTimeout(() => {
+                            item.style.opacity = '1';
+                            item.style.transform = 'scale(1)';
+                        }, 100);
+                    } else {
+                        item.style.opacity = '0';
+                        item.style.transform = 'scale(0.8)';
+                        setTimeout(() => {
+                            item.style.display = 'none';
+                        }, 300);
+                    }
+                });
+            });
+        });
+
+        // Form submission
+        const contactForm = document.getElementById('contact-form');
+        const formStatus = document.getElementById('form-status');
+
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form values
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const subject = document.getElementById('subject').value;
+            const message = document.getElementById('message').value;
+            
+            // Simple validation
+            if (!name || !email || !subject || !message) {
+                formStatus.textContent = 'Please fill in all fields.';
+                formStatus.className = 'form-status error';
+                return;
+            }
+            
+            // Email validation
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(email)) {
+                formStatus.textContent = 'Please enter a valid email address.';
+                formStatus.className = 'form-status error';
+                return;
+            }
+            
+            // Simulate form submission
+            formStatus.textContent = 'Sending your message...';
+            formStatus.className = 'form-status';
+            
+            setTimeout(() => {
+                formStatus.textContent = 'Thank you! Your message has been sent successfully.';
+                formStatus.className = 'form-status success';
+                
+                // Reset form
+                contactForm.reset();
+                
+                // Clear success message after 5 seconds
+                setTimeout(() => {
+                    formStatus.style.display = 'none';
+                }, 5000);
+            }, 1500);
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 70,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Animate elements on scroll
+        function checkScroll() {
+            animateSkillBars();
+            
+            // Animate portfolio items on scroll
+            const portfolioItems = document.querySelectorAll('.portfolio-item');
+            portfolioItems.forEach(item => {
+                const itemPosition = item.getBoundingClientRect().top;
+                const screenPosition = window.innerHeight / 1.2;
+                
+                if (itemPosition < screenPosition) {
+                    item.style.opacity = '1';
+                    item.style.transform = 'translateY(0)';
+                }
+            });
+        }
+
+        // Initial setup
+        window.addEventListener('DOMContentLoaded', function() {
+            // Set initial state for portfolio items
+            document.querySelectorAll('.portfolio-item').forEach(item => {
+                item.style.opacity = '0';
+                item.style.transform = 'translateY(20px)';
+                item.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+            });
+            
+            // Trigger animation for elements in view on page load
+            setTimeout(checkScroll, 100);
+        });
+
+        // Listen for scroll events
+        window.addEventListener('scroll', checkScroll);
+    </script>
+</body>
+</html>
